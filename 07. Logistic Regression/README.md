@@ -1,6 +1,6 @@
 # Logistic Regression Model Deployment with Streamlit
 
-This project demonstrates how to deploy a logistic regression model using Streamlit. The deployment can be done locally or online via Streamlit Community Cloud.
+This project demonstrates how to deploy a logistic regression model using Streamlit. The deployment is done locally.
 
 ## Prerequisites
 

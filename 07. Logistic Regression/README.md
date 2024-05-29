@@ -14,9 +14,9 @@ To ensure a clean working environment, it's recommended to create a virtual envi
 python -m venv env
 
 ### 2. Activate the virtual environment
-# On Windows
+#### On Windows
 .\env\Scripts\activate
-# On macOS/Linux
+#### On macOS/Linux
 source env/bin/activate
 
 ### 3. Install Required Packages

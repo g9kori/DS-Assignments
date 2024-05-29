@@ -1,11 +1,26 @@
-# Logistic Regression Model Deployment
+# Logistic Regression Model Deployment with Streamlit
 
-This repository contains a Streamlit app for deploying a logistic regression model.
+This project demonstrates how to deploy a logistic regression model using Streamlit. The deployment can be done locally or online via Streamlit Community Cloud.
 
-## Setup Instructions
+## Prerequisites
 
-### 1. Clone the Repository
+- Python 3.x
+- Git
+- Web browser
+
+## Instructions
+
+### 1. Create a Virtual Environment
+
+To ensure a clean working environment, it's recommended to create a virtual environment. Use the following commands:
 
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+# Create a virtual environment
+python -m venv env
+
+# Activate the virtual environment
+# On Windows
+.\env\Scripts\activate
+
+# On macOS/Linux
+source env/bin/activate

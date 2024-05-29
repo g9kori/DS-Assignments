@@ -5,7 +5,6 @@ This project demonstrates how to deploy a logistic regression model using Stream
 ## Prerequisites
 
 - Python 3.x
-- Git
 - Web browser
 
 ## Instructions

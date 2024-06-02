@@ -44,4 +44,22 @@ Analyze the performance of the recommendation system and identify areas of impro
 
 Interview Questions:
 1. Can you explain the difference between user-based and item-based collaborative filtering?
+Answer:
+User-based collaborative filtering:
+- This approach recommends items by finding similar users.
+- It first identifies users who are similar to the target user based on their interactions with items (e.g., ratings).
+- Then, it recommends items that similar users have liked or interacted with but the target user has not.
+For example, if User A and User B have similar preferences and User A has liked an item that User B has not interacted with, the system might recommend that item to User B.
+
+Item-based collaborative filtering:
+- This approach recommends items that are similar to items the user has liked or interacted with in the past.
+- It first calculates the similarity between items based on user interactions.
+- Then, it recommends items that are similar to those the user has liked in the past.
+For example, if User A liked Item X, and Item Y is similar to Item X, the system might recommend Item Y to User A.
+
 2. What is collaborative filtering, and how does it work?
+Answer:
+- Collaborative filtering is a technique used by recommender systems to make automatic predictions (filtering) about the interests of a user by collecting preferences from many users (collaborating).
+- It works by searching for patterns in the preferences of multiple users to recommend items or content that users with similar preferences have liked in the past.
+- The main idea is to predict the rating or preference that a user would give to an item based on the ratings or preferences of other users.
+- Collaborative filtering can be implemented using different approaches, including user-based and item-based methods, as well as more complex models such as matrix factorization and deep learning.
